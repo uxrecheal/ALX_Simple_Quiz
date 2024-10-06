@@ -33,6 +33,9 @@ function checkAnswer() {
     // feedback.style.color = "red";
   }
 }
-document
-  .getElementById("submit-answer")
-  .addEventListener("click", checkAnswer);
+const submitButton = document.getElementById("submit-answer");
+submitButton.addEventListener("click", checkAnswer);
+
+// document
+//   .getElementById("submit-answer")
+//   .addEventListener("click", checkAnswer);
